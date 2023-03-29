@@ -622,11 +622,8 @@ footer {
   .header__logo{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
     align-items: center;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
   }
 
   .header__logo__img{
