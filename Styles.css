@@ -427,6 +427,7 @@ footer {
 
   .header__nav{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -603,6 +604,7 @@ footer {
 
   .header__nav{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -610,6 +612,7 @@ footer {
 
   .header__nav-list{
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -622,6 +625,8 @@ footer {
     width: 50%;
     align-items: center;
     justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
   }
 
   .header__logo__img{
