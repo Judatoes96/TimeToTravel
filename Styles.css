@@ -433,7 +433,7 @@ footer {
     justify-content: center;
   }
 
-  .header__logo{
+  .header__Logo{
     display: block;
   }
 
@@ -602,6 +602,11 @@ footer {
     background-size: cover;
   }
 
+  .header__nav-items {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .header__nav{
     display: flex;
     flex-direction: column;
@@ -619,14 +624,14 @@ footer {
 
   }
 
-  .header__logo{
+  .header__Logo{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
   }
 
-  .header__logo__img{
+  .header__Logo__img{
     display: flex;
     flex-wrap: wrap;
     width: 50%;
